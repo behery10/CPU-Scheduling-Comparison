@@ -36,7 +36,6 @@ The project calculates:
 - Waiting Time (WT)
 - Response Time (RT)
 
-## Project Structure
 src/
 ├── algorithms/
 │   ├── Scheduler.java
@@ -45,7 +44,7 @@ src/
 │   └── MainFrame.java
 └── model/
     ├── Process.java
-    └── Result.java
+    └── Result.java 
 
     
 How to Run:
