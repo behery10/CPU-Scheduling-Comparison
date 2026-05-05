@@ -36,17 +36,7 @@ The project calculates:
 - Waiting Time (WT)
 - Response Time (RT)
 
-src/
-├── algorithms/
-│   ├── Scheduler.java
-│   └── ScheduleOutput.java
-├── gui/
-│   └── MainFrame.java
-└── model/
-    ├── Process.java
-    └── Result.java 
 
-    
 How to Run:
 1-Open the project in a Java IDE such as NetBeans, IntelliJ IDEA, or Eclipse.
 2-Open the file: src/gui/MainFrame.java
