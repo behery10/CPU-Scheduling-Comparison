@@ -44,16 +44,52 @@ How to Run:
 4-Enter the process data and quantum value.
 5-Click Run to display the scheduling results.
 
-Example Test Case:
+Test Scenarios:
+# Scenario 1: Normal Workload
 Quantum = 2
 
-P1  Arrival = 3  Burst = 4
+P1  Arrival = 0  Burst = 5
 
-P2  Arrival = 5  Burst = 2
+P2  Arrival = 1  Burst = 3
 
-P3  Arrival = 6  Burst = 1
+P3  Arrival = 2  Burst = 4
+Result:SRTF achieved the lowest waiting time.
 
-P4  Arrival = 7  Burst = 3
+
+![Scenario 1](scenario1.png)
+
+
+# Scenario 2: Short Jobs
+
+Quantum = 2
+
+P1  Arrival = 0  Burst = 10
+
+P2  Arrival = 1  Burst = 1
+
+P3  Arrival = 2  Burst = 1
+Result:SJF/SRTF performed better for short jobs.
+
+![Scenario 2](scenario2.png)
+
+# Scenario 3: Long Job Sensitivity
+
+Quantum = 2
+
+P1  Arrival = 0  Burst = 20
+
+P2  Arrival = 1  Burst = 2
+
+P3  Arrival = 2  Burst = 2
+Result:Long process is delayed, showing starvation in SJF/SRTF.
+
+![Scenario 3](scenario3.png)
+
+
+
+
+
+
 
 Conclusion
 
