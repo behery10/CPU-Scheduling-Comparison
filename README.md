@@ -46,9 +46,13 @@ How to Run:
 
 Example Test Case:
 Quantum = 2
+
 P1  Arrival = 3  Burst = 4
+
 P2  Arrival = 5  Burst = 2
+
 P3  Arrival = 6  Burst = 1
+
 P4  Arrival = 7  Burst = 3
 
 Conclusion
