@@ -26,6 +26,7 @@ Project Features
 - Comparison summary showing the best algorithm for each metric
 - Dynamic conclusion based on the actual results
 - Idle CPU time handling in the Gantt Chart
+- Scenario buttons for loading predefined test cases automatically
 
  Scheduling Metrics
 
@@ -43,8 +44,14 @@ How to Run:
 3-Run the MainFrame class.
 4-Enter the process data and quantum value.
 5-Click Run to display the scheduling results.
+6-You can also click Scenario A, Scenario B, or Scenario C to load predefined test cases automatically
 
 Test Scenarios:
+
+
+The project also includes scenario buttons in the GUI to load predefined test cases quickly.
+
+
 # Scenario 1: Normal Workload
 Quantum = 2
 
