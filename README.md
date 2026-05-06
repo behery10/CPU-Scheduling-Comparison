@@ -93,7 +93,7 @@ Result:Long process is delayed, showing starvation in SJF/SRTF.
 ![Scenario 3](scenario3.png)
 
 
-Scenario 4: Fairness
+# Scenario 4: Fairness
 Quantum = 2
 
 P1  Arrival = 0  Burst = 10
@@ -104,7 +104,7 @@ P3  Arrival = 0  Burst = 10
 
 Result:Round Robin distributes CPU time equally and is more fair
 
-Scenario 5: Input Validation
+# Scenario 5: Input Validation
 
 Invalid Inputs:
 
