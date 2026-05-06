@@ -25,7 +25,7 @@ public class MainFrame extends JFrame {
     public MainFrame() {
 
         setTitle("CPU Scheduling Comparison");
-        setSize(1450, 900);
+        setSize(1500, 900);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
         setLocationRelativeTo(null);
@@ -56,16 +56,28 @@ public class MainFrame extends JFrame {
         add(quantumField);
 
         JButton addBtn = new JButton("Add Process");
-        addBtn.setBounds(760, 55, 130, 25);
+        addBtn.setBounds(750, 55, 120, 25);
         add(addBtn);
 
         JButton runBtn = new JButton("Run");
-        runBtn.setBounds(910, 55, 100, 25);
+        runBtn.setBounds(880, 55, 80, 25);
         add(runBtn);
 
         JButton clearBtn = new JButton("Clear");
-        clearBtn.setBounds(1030, 55, 100, 25);
+        clearBtn.setBounds(970, 55, 80, 25);
         add(clearBtn);
+
+        JButton scenarioABtn = new JButton("Scenario A");
+        scenarioABtn.setBounds(1060, 55, 110, 25);
+        add(scenarioABtn);
+
+        JButton scenarioBBtn = new JButton("Scenario B");
+        scenarioBBtn.setBounds(1180, 55, 110, 25);
+        add(scenarioBBtn);
+
+        JButton scenarioCBtn = new JButton("Scenario C");
+        scenarioCBtn.setBounds(1300, 55, 110, 25);
+        add(scenarioCBtn);
 
         processModel = new DefaultTableModel(new String[]{"PID", "Arrival", "Burst"}, 0);
         JTable processTable = new JTable(processModel);
@@ -141,6 +153,10 @@ public class MainFrame extends JFrame {
         runBtn.addActionListener(e -> runSchedulers());
         clearBtn.addActionListener(e -> clearAll());
 
+        scenarioABtn.addActionListener(e -> loadScenarioA());
+        scenarioBBtn.addActionListener(e -> loadScenarioB());
+        scenarioCBtn.addActionListener(e -> loadScenarioC());
+
         setVisible(true);
     }
 
@@ -185,6 +201,38 @@ public class MainFrame extends JFrame {
         pidField.setText("");
         arrivalField.setText("");
         burstField.setText("");
+    }
+
+    private void addScenarioProcess(String pid, int arrival, int burst) {
+        processes.add(new Process(pid, arrival, burst));
+        processModel.addRow(new Object[]{pid, arrival, burst});
+    }
+
+    private void loadScenarioA() {
+        clearAll();
+        quantumField.setText("2");
+
+        addScenarioProcess("P1", 0, 5);
+        addScenarioProcess("P2", 1, 3);
+        addScenarioProcess("P3", 2, 4);
+    }
+
+    private void loadScenarioB() {
+        clearAll();
+        quantumField.setText("2");
+
+        addScenarioProcess("P1", 0, 10);
+        addScenarioProcess("P2", 1, 1);
+        addScenarioProcess("P3", 2, 1);
+    }
+
+    private void loadScenarioC() {
+        clearAll();
+        quantumField.setText("2");
+
+        addScenarioProcess("P1", 0, 10);
+        addScenarioProcess("P2", 0, 10);
+        addScenarioProcess("P3", 0, 10);
     }
 
     private double[] fillTableAndGetAverages(DefaultTableModel model, ScheduleOutput output) {
