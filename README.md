@@ -86,9 +86,33 @@ Result:Long process is delayed, showing starvation in SJF/SRTF.
 ![Scenario 3](scenario3.png)
 
 
+Scenario 4: Fairness
+Quantum = 2
+
+P1  Arrival = 0  Burst = 10
+
+P2  Arrival = 0  Burst = 10
+
+P3  Arrival = 0  Burst = 10
+
+Result:Round Robin distributes CPU time equally and is more fair
+
+Scenario 5: Input Validation
+
+Invalid Inputs:
+
+Burst = -1
+
+Arrival = -2
+
+Duplicate PID
+
+Quantum = 0
+
+Result: The system correctly rejects invalid inputs.
 
 
-
+These scenarios demonstrate how scheduling algorithms behave under different workloads, including fairness, efficiency, and input validation.
 
 
 Conclusion
