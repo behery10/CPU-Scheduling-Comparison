@@ -52,7 +52,7 @@ Test Scenarios:
 The project also includes scenario buttons in the GUI to load predefined test cases quickly.
 
 
-### Scenario 1: Normal Workload
+# Scenario 1: Normal Workload
 Quantum = 2
 
 P1  Arrival = 0  Burst = 5
