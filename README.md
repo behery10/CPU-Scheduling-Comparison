@@ -63,7 +63,7 @@ P3  Arrival = 2  Burst = 4
 Result:SRTF achieved the lowest waiting time.
 
 
-![Scenario 1](scenario1.png)
+![Scenario 1](screenshots/scenario1.png)
 
 
 # Scenario 2: Short Jobs
@@ -77,7 +77,7 @@ P2  Arrival = 1  Burst = 1
 P3  Arrival = 2  Burst = 1
 Result:SJF/SRTF performed better for short jobs.
 
-![Scenario 2](scenario2.png)
+![Scenario 2](screenshots/scenario2.png)
 
 # Scenario 3: Long Job Sensitivity
 
