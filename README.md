@@ -90,7 +90,7 @@ P2  Arrival = 1  Burst = 2
 P3  Arrival = 2  Burst = 2
 Result:Long process is delayed, showing starvation in SJF/SRTF.
 
-![Scenario 3](scenario3.png)
+![Scenario 3](screenshots/scenario3.png)
 
 
 # Scenario 4: Fairness
