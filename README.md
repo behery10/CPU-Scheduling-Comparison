@@ -175,6 +175,14 @@ Overall, the project successfully compares different scheduling strategies using
 
 ---
 
+## Technologies Used
+
+- Programming Language: Java
+- Java Version: JDK 25 (LTS)
+- GUI Technology: Java Swing
+- IDE: IntelliJ IDEA / Eclipse / NetBeans
+
+  
 ## Course Information
 
 - Course: Operating Systems
