@@ -136,7 +136,7 @@ P3 → Arrival = 0, Burst = 10
 ### Result
 Round Robin distributes CPU time equally and appears more fair across all processes.
 
-![Scenario 4](screenshots/scenario4.png)
+
 
 ---
 
@@ -153,7 +153,6 @@ Round Robin distributes CPU time equally and appears more fair across all proces
 
 The system correctly rejects invalid inputs and prevents invalid scheduling execution.
 
-![Scenario 5](screenshots/validation-case.png)
 
 ---
 
