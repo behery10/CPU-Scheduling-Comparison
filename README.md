@@ -5,6 +5,17 @@
 
 - Project Title: Round Robin vs SJF Comparison Project
 
+## Team Members
+
+| Member Name | Student ID |
+|---|---|
+| إبراهيم محمد إسماعيل عبدالخالق بحيري | 20240011 |
+| أحمد محمد عبدالرحمن إبراهيم عبدربه | 20240027 |
+| عبدالرحمن ياسر سمير إبراهيم | 20240566 |
+| حليله محمد محسن زكي | 20240282 |
+| نوران طلعت عبدالنعم | 20241073 |
+| أسماء محمد عبدالحكيم | 20240127 |
+
 Project Overview:
 
 This project was developed for the Operating Systems course to compare CPU scheduling algorithms using a Java GUI application.
