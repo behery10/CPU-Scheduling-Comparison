@@ -1,5 +1,10 @@
 # CPU Scheduling Comparison Project
 
+
+## Team Information
+
+- Project Title: Round Robin vs SJF Comparison Project
+
 Project Overview:
 
 This project was developed for the Operating Systems course to compare CPU scheduling algorithms using a Java GUI application.
