@@ -16,13 +16,13 @@
 | نوران طلعت عبدالنعم | 20241073 |
 | أسماء محمد عبدالحكيم | 20240127 |
 
-##Project Overview:
+## Project Overview:
 
 This project was developed for the Operating Systems course to compare CPU scheduling algorithms using a Java GUI application.
 
 The system allows the user to enter processes dynamically, run multiple scheduling algorithms, and compare their performance using common scheduling metrics.
 
-##Implemented Algorithms
+## Implemented Algorithms
 
 The project implements and compares the following algorithms:
 
@@ -54,7 +54,7 @@ The project calculates:
 - Response Time (RT)
 
 
-##How to Run:
+## How to Run:
 1-Open the project in a Java IDE such as NetBeans, IntelliJ IDEA, or Eclipse.
 2-Open the file: src/gui/MainFrame.java
 3-Run the MainFrame class.
