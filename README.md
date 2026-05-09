@@ -30,7 +30,7 @@ The project implements and compares the following algorithms:
 2. Shortest Job First (SJF - Non-Preemptive)
 3. Shortest Remaining Time First (SRTF - Preemptive SJF)
 
-##Project Features
+## Project Features
 
 - Dynamic process input using PID, Arrival Time, and Burst Time
 - Time Quantum input for Round Robin
@@ -62,7 +62,7 @@ The project calculates:
 5-Click Run to display the scheduling results.
 6-You can also click Scenario A, Scenario B, or Scenario C to load predefined test cases automatically
 
-##Test Scenarios:
+## Test Scenarios:
 
 
 The project also includes scenario buttons in the GUI to load predefined test cases quickly.
