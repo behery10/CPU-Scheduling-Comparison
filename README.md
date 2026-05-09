@@ -12,9 +12,9 @@
 | إبراهيم محمد إسماعيل عبدالخالق بحيري | 20240011 |
 | أحمد محمد عبدالرحمن إبراهيم عبدربه | 20240027 |
 | عبدالرحمن ياسر سمير إبراهيم | 20240566 |
-| حليله محمد محسن زكي | 20240282 |
+| حبيبه محمد محسن زكي | 20240282 |
 | نوران طلعت عبدالنعم | 20241073 |
-| أسماء محمد عبدالحكيم | 20240127 |
+| أسراء محمد عبدالحكيم | 20240127 |
 
 ---
 
@@ -136,6 +136,8 @@ P3 → Arrival = 0, Burst = 10
 ### Result
 Round Robin distributes CPU time equally and appears more fair across all processes.
 
+![Scenario 4](screenshots/scenario4.png)
+
 
 
 ---
@@ -152,6 +154,8 @@ Round Robin distributes CPU time equally and appears more fair across all proces
 ### Result
 
 The system correctly rejects invalid inputs and prevents invalid scheduling execution.
+
+![Scenario 5](screenshots/scenario5.png)
 
 
 ---
