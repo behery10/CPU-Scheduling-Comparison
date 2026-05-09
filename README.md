@@ -104,7 +104,7 @@ P2 → Arrival = 1, Burst = 1
 P3 → Arrival = 2, Burst = 1  
 
 ### Result
-SJF/SRTF performed better for short jobs.
+SRTF achieved the lowest waiting time (0.67). SJF performed worst (WT=6.0) because it could not preempt the long P1. Round Robin (WT=1.33) outperformed SJF in this case
 
 ![Scenario 2](screenshots/scenario2.png)
 
